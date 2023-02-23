@@ -9,13 +9,13 @@ variable "lambda_config" {
 }
 
 variable "timezone" {
-  type    = string
-  default = "UTC"
+  type        = string
+  default     = "UTC"
   description = "Timezone for AWS EventBrige cron expressions"
 }
 
 variable "aws_region" {
-  type    = string
-  default = "us-west-2"
+  type        = string
+  default     = "us-west-2"
   description = "AWS region"
 }
